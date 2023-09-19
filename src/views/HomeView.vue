@@ -81,7 +81,7 @@ export default {
           .then(res => {
             const imagePath = res.data.data.url;
             // 拼接接口域名或IP
-            this.imageUrl = `http://47.94.4.201/${imagePath}`;
+            this.imageUrl = `https://www.zzgoodqc.cn/${imagePath}`;
             console.log(res.data);
           })
           .catch(error => {
